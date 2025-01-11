@@ -1,0 +1,33 @@
+* , ::before , ::after{
+    box-sizing: border-box;
+  
+}
+
+.nav-bg{
+    background-color: #2C3E50;
+}
+
+.nav-f{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.nav-f2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    
+
+}
+li{
+    position: relative;
+}
+.line::after{
+    width: 80%;
+    top: 100%;
+    left: 10%;
+    content: " ";
+    background-color: #1ABC9C;
+    position: absolute;
+    height: 4px;
+}

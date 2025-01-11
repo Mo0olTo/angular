@@ -1,0 +1,51 @@
+
+* , ::before , ::after{
+    box-sizing: border-box;
+    
+}
+
+
+.bg-home{
+    background-color: #1ABC9C;
+    min-height: 80vh;
+    margin: auto;
+}
+.desc h1{
+    color: #ffffff;
+    font-family: "DynaPuff", serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-optical-sizing: auto;
+}
+
+
+
+.content .desc i{
+    font-size: 50px;
+   background-image: linear-gradient( 45deg , #FD30C3 25%,red 25%
+    , rgb(40, 40, 188) , #C834ED);
+   color: transparent;
+   background-clip: text;
+}
+
+.desc{
+    position: relative;
+}
+.desc p::after{
+    width: 15%;
+    top: 75%;
+    left: 30%;
+    content: " ";
+    background-color: #ffffff;
+    position: absolute;
+    height: 5px;
+}
+.desc p::before{
+    min-width: 15%;
+    top: 75%;
+    right: 30%;
+    content: " ";
+    background-color: #ffffff;
+    position: absolute;
+    height: 5px;
+}

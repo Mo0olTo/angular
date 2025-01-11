@@ -1,0 +1,67 @@
+* , ::before , ::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bg-contact{
+    background-color: white;
+    min-height: 80vh;
+    margin: auto;
+}
+
+.title h1{
+    color: #2C3E50;
+    font-family: "DynaPuff", serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-optical-sizing: auto;
+}
+.title i{
+    font-size: 50px;
+    background-image: linear-gradient( 45deg , #FD30C3 25%,red 25%
+     , rgb(40, 40, 188) , #C834ED);
+    color: transparent;
+    background-clip: text;
+}
+
+.title{
+    position: relative;
+}
+.title p::after{
+    width: 15%;
+    top: 75%;
+    left: 28%;
+    content: " ";
+    background-color: #2C3E50;
+    position: absolute;
+    height: 5px;
+}
+.title p::before{
+    width: 15%;
+    top: 75%;
+    right: 28%;
+    content: " ";
+    background-color: #2C3E50;
+    position: absolute;
+    height: 5px;
+}
+
+.container-small{
+    width: 70%;
+    margin: auto;
+}
+
+.form-control-plaintext{
+
+    border-bottom: 1px #a6a6a6 dotted !important;
+    font-size: large !important;
+}
+
+.btn-primary{
+    background-color: #1ABC9C  !important;
+    border-color: #1ABC9C !important;
+}
+.btn-primary:hover{
+    background-color: #199980  !important;
+    border-color: #199980  !important;
+}

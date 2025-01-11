@@ -1,0 +1,108 @@
+
+* , ::before , ::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bg-port{
+    background-color: white;
+    min-height: 80vh;
+    margin: auto;
+}
+
+.title h1{
+    color: #2C3E50;
+    font-family: "DynaPuff", serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-optical-sizing: auto;
+}
+.title i{
+    font-size: 50px;
+    background-image: linear-gradient( 45deg , #FD30C3 25%,red 25%
+     , rgb(40, 40, 188) , #C834ED);
+    color: transparent;
+    background-clip: text;
+}
+
+.title{
+    position: relative;
+}
+.title p::after{
+    width: 15%;
+    top: 75%;
+    left: 28%;
+    content: " ";
+    background-color: #2C3E50;
+    position: absolute;
+    height: 5px;
+}
+.title p::before{
+    width: 15%;
+    top: 75%;
+    right: 28%;
+    content: " ";
+    background-color: #2C3E50;
+    position: absolute;
+    height: 5px;
+}
+
+
+.content{
+    position: relative;
+    overflow: hidden;
+}
+
+.layer{
+    position: absolute;
+    inset: 0;
+    background-color: #1ABC9C;
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+.layer i{
+    position: absolute;
+    color: white;
+    font-size: 75px;
+}
+
+.inner:hover .layer{
+   opacity: 0.8;
+   
+}
+
+
+.lightContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgb(0 0 0  );
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.lightConHide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.lightContainer .box{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+
+
+
+
+
+/* ................. */
