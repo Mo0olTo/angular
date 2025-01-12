@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/C:/Program Files/Git/angular": {},
-    "/C:/Program Files/Git/angular/about": {},
-    "/C:/Program Files/Git/angular/contact": {},
-    "/C:/Program Files/Git/angular/home": {},
-    "/C:/Program Files/Git/angular/portfolio": {}
+    "/test": {},
+    "/test/about": {},
+    "/test/contact": {},
+    "/test/home": {},
+    "/test/portfolio": {}
   }
 }

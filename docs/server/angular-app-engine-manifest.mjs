@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'C:/Program Files/Git/angular',
+  basePath: '/test',
   entryPoints: {
     '': () => import('./main.server.mjs')
   },

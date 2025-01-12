@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-portfolio',
   imports: [],
@@ -13,9 +14,10 @@ export class PortfolioComponent {
 
 
 
- 
 
-   }
+
+
+}
 
 
    

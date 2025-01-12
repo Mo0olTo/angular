@@ -48,7 +48,7 @@
 }
 
 
-.content{
+.content1{
     position: relative;
     overflow: hidden;
 }
@@ -103,6 +103,8 @@
 
 
 
-
+.modal-content{
+    background-color: black !important;
+}
 
 /* ................. */
